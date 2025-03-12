@@ -13,7 +13,7 @@
         android:theme="@style/Theme.CoroutinesPracticeAndroid"
         tools:targetApi="31">
         <activity
-            android:name=".lesson1.MainActivity2"
+            android:name=".lesson1.MainActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

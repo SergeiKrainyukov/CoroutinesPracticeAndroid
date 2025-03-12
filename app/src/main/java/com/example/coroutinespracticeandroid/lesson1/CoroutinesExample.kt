@@ -4,10 +4,8 @@ import androidx.appcompat.app.AppCompatActivity
 import androidx.lifecycle.lifecycleScope
 import com.example.coroutinespracticeandroid.R
 import com.example.coroutinespracticeandroid.showToast
-import kotlinx.coroutines.GlobalScope
 import kotlinx.coroutines.delay
 import kotlinx.coroutines.launch
-import kotlinx.coroutines.runBlocking
 
 class MainActivity2 : AppCompatActivity(R.layout.activity_main) {
     override fun onResume() {

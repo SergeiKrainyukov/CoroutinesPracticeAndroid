@@ -32,7 +32,7 @@ class MainActivity : AppCompatActivity(R.layout.activity_main) {
         Thread {
             Thread.sleep(8000)
             val result = "Данные получены из источника 2"
-            callback.invoke(result)
+            callback(result)
         }.start()
     }
 }
